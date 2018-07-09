@@ -8,7 +8,7 @@ db.init(function(){
   });
 
   dclient.on('message', msg => {
-        if (message.author.id === client.user.id) return;
+        if (message.author.id === dclient.user.id) return;
         if (msg.channel.type === 'dm'){
           //Dont do anything.
           console.log('Not doing anything')
