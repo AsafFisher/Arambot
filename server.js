@@ -1,12 +1,13 @@
 //Edited. Edited
-
+var dclient;
 const db = require('./discordbot.js');
 db.init(function(){
-  client.on('ready', () => {
-        console.log(`Logged in as ${client.user.tag}!`);
+  dclient = db.client;
+  dclient.on('ready', () => {
+        console.log(`Logged in as ${dclient.user.tag}!`);
   });
 
-  client.on('message', msg => {
+  dclient.on('message', msg => {
         if (msg.channel.type === 'dm'){
           //Dont do anything.
           return;
