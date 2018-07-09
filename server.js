@@ -1,4 +1,4 @@
-//Edited. Edited   
+//Here is the file where you add stuff.
 var dclient;
 const db = require('./discordbot.js');
 db.init(function(){
