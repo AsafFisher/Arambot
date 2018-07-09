@@ -9,7 +9,7 @@ client.on('ready', () => {
 
 client.on('message', msg => {
       if (msg.content === 'ping') {
-	      msg.reply('pong');
+	      //msg.reply('pong');
 	}
 });
 //CTF!!!!! (find the flag and let me know so I will patch it (: )
