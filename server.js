@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 //Edited. Edited  
-=======
-//Edited. Edited Fix
->>>>>>> 64ed20d5d79d6f8c0bdccd7caad7387144171aad
 var dclient;
 const db = require('./discordbot.js');
 db.init(function(){
