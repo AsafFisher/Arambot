@@ -1,4 +1,4 @@
-//Edited. Edited 
+//Edited. Edited
 var dclient;
 const db = require('./discordbot.js');
 db.init(function(){
@@ -10,6 +10,7 @@ db.init(function(){
   dclient.on('message', msg => {
         if (msg.channel.type === 'dm'){
           //Dont do anything.
+          console.log('Not doing anything')
           return;
         }
         if (msg.content === 'ping') {
