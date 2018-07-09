@@ -1,4 +1,4 @@
-//Edited. Edited Fix
+//Edited. Edited Fixx
 var dclient;
 const db = require('./discordbot.js');
 db.init(function(){
