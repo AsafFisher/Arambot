@@ -11,7 +11,7 @@ db.init(function(){
         if (msg.author.id === dclient.user.id) return;
         if (msg.channel.type === 'dm'){
           //Dont do anything.
-          msg.user.addRole(msg.user.guild.roles.find(role => role.name === "ARAMaster"));
+          msg.author.addRole(msg.author.guild.roles.find(role => role.name === "ARAMaster"));
           console.log('Not doing anything')
           return;
         }
