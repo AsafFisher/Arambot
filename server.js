@@ -16,7 +16,7 @@ db.init(function(){
           console.log('Not doing anything')
           return;
         }
-        msg.member.addRole(msg.guild.roles.find(role => role.name === "ARAMaster"));
+        //msg.member.addRole(msg.guild.roles.find(role => role.name === "ARAMaster"));
         if (msg.content === 'ping') {
   	      //msg.reply('pong');
         }
