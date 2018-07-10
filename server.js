@@ -16,8 +16,8 @@ db.init(function(){
           return;
         }
         //msg.member.addRole(msg.guild.roles.find(role => role.name === "ARAMaster"));
-        if (msg.content === 'ping') {
-  	      //msg.reply('pong');
+        if (msg.content === '!help') {
+  	       msg.reply('Hi! I Am super  customizable plz improve me! DM me for more information.');
         }
   });
 });
