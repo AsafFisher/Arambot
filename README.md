@@ -14,4 +14,4 @@ _______________
 BTW, this bot is ARAM group's property, it will never be used for any other group.
 
 
-**MAKE SURE YOU TURN ON STDOUT IN Private Message WITH THE BOT TO SEE THAT YOUR CODE WORKS! THE COMMAND IS `!stdout`
+**MAKE SURE YOU TURN ON STDOUT IN Private Message WITH THE BOT TO SEE THAT YOUR CODE WORKS! THE COMMAND IS `!stdout`**
