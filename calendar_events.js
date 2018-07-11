@@ -1,8 +1,8 @@
 var fs = require('fs');
-export.init() = function(){
+exports.init() = function(){
   fs
 }
 
-export.addEvent = function(){
+exports.addEvent = function(){
 
 }

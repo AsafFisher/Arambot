@@ -28,7 +28,8 @@ db.init(function(){
         }
         if (tokens[0] === '!addevent') {
   	       msg.reply('Events and reminders are in construction.');
-           //
+           //TODO: events.addEvent(tokens[1]);
+           //events.addEvent(tokens[1]);
         }
   });
 });
