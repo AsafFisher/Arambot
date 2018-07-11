@@ -12,12 +12,17 @@ db.init(function(){
           //Dont do anything.
 
           //msg.member.addTo(server.roles.get("name", "ew"));
-          console.log('Not doing anything')
+          console.log('Test Log. (Im in sourcecode.)')
           return;
         }
         //msg.member.addRole(msg.guild.roles.find(role => role.name === "ARAMaster"));
-        if (msg.content === '!help') {
+        var tokens = message.split('');
+        if (tokens[0] === '!help') {
   	       msg.reply('Hi! I Am super  customizable plz improve me! DM me for more information.');
+        }
+        if (tokens[0] === '!addevent') {
+  	       msg.reply('Events and reminders are in construction.');
+
         }
   });
 });
