@@ -1,5 +1,5 @@
 var fs = require('fs');
-exports.init() = function(){
+exports.init = function(){
   fs
 }
 
