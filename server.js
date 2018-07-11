@@ -16,7 +16,7 @@ db.init(function(){
           return;
         }
         //msg.member.addRole(msg.guild.roles.find(role => role.name === "ARAMaster"));
-        var tokens = message.split(' ');
+        var tokens = message.content.split(' ');
         if (tokens[0] === '!help') {
   	       msg.reply('Hi! I Am super  customizable plz improve me! DM me for more information.');
         }
